@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.logo{
+
+.logo {
     width: 22%;
-    display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
 }
-.logo img{
+
+.logo img {
     width: 35%;
     border: 3px solid white;
     border-radius: 50px;
     height: 17%;
-
 }
 
-.navbar{
+.navbar {
     display: flex;
     position: sticky;
     top: 0;
@@ -25,60 +25,64 @@
     text-align: center;
     cursor: pointer;
 }
-.nav-list{
+
+.nav-list {
     width: 50%;
     display: flex;
     /* background-color:black; */
     align-items: center;
     /* border: 1px solid black; */
 }
-.nav-list li{
+
+.nav-list li {
     list-style: none;
     padding: 26px 34px;
 }
-.nav-list li a{
+
+.nav-list li a {
     text-decoration: none;
     color: white;
     cursor: pointer;
     font-size: 18px;
     font-family: 'Baloo Bhai 2', cursive;
-
 }
-.nav-list li a:hover{
+
+.nav-list li a:hover {
     color: gray;
-
 }
 
-.rightNav{
+.rightNav {
     width: 50%;
     /* background-color: gray; */
     text-align: right;
     justify-content: right;
     align-items: center;
     margin-right: 10px;
-
 }
-#search{
+
+#search {
     padding: 5px;
     font-size: 17px;
     border: 2px solid red;
     border-radius: 10px;
     margin-top: 28px;
-
 }
-.background{
-    background:rgba(0,0,0,0.7) url('../img/bgpic2.jpg');
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/bgpic2.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
 
+
 /* part-2 */
 
-.firstsection{
+.firstsection {
     height: 100vh;
     /* background-color: yellow; */
 }
-.box-main{
+
+.box-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,45 +92,43 @@
     height: 70%;
 }
 
-.firsthalf{
+.firsthalf {
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
-
-.secondsection{
+.secondsection {
     width: 30%;
     padding: 0px 34px;
     margin-left: 23px;
 }
 
-.secondsection img{
+.secondsection img {
     width: 184px;
     height: 171px;
     display: block;
     margin: auto;
     border: 2px solid white;
     border-radius: 684px;
-   
-    
 }
-.text-big{
+
+.text-big {
     font-size: 40px;
     text-align: center;
     margin-right: 190px;
     font-family: 'Baloo Bhai 2', cursive;
 }
-.text-sm{
+
+.text-sm {
     font-size: 18px;
     font-family: 'Baloo Bhai 2', cursive;
     /* text-align: center; */
     /* margin-left: 18px; */
 }
-.btn{
+
+.btn {
     padding: 6px 10px;
     margin: 2px;
     border: 2px solid white;
@@ -139,7 +141,7 @@
     font-family: 'Baloo Bhai 2', cursive;
 }
 
-.btn-sm{
+.btn-sm {
     /* vertical-align: middle; */
     padding: 5px 8px;
     top: 121px;
@@ -148,16 +150,16 @@
     font-size: 12px;
     margin-left: 10px;
 }
-.btn:hover{
+
+.btn:hover {
     background: white;
     color: black;
-    
-    
 }
+
 
 /* part-3 */
 
-.section{
+.section {
     display: flex;
     height: 80%;
     margin: auto;
@@ -165,14 +167,15 @@
     align-items: center;
     justify-content: center;
     max-width: 1333px;
-
 }
+
+
 /* .para{
     padding: 40px 20px;
     margin: 12px 10px;
 } */
 
-.sideimg img{
+.sideimg img {
     height: 180px;
     border: 2px solid black;
     margin: auto;
@@ -180,44 +183,44 @@
     display: flex;
     border-radius: 20px;
     margin-top: 49px;
-
 }
-.sectiontag{
+
+.sectiontag {
     font-size: 33px;
     margin-right: 565px;
     font-family: 'Baloo Bhai 2', cursive;
-
 }
-.middle{
+
+.middle {
     flex-direction: row-reverse;
 }
 
+
 /* prat-4 */
 
-.contactus{
+.contactus {
     height: 450px;
     /* max-width: 500px; */
     background-color: floralwhite;
-    
     border: 2px solid yellow;
     font-family: 'Baloo Bhai 2', cursive;
-
 }
-.text-center{
+
+.text-center {
     text-align: center;
     padding: 20px;
     color: blue;
     font-size: 33px;
     font-family: 'Baloo Bhai 2', cursive;
-
 }
-.form{
+
+.form {
     max-width: 344px;
     margin: auto;
     font-family: 'Baloo Bhai 2', cursive;
-   
 }
-.form-input{
+
+.form-input {
     width: 100%;
     font-size: 23px;
     border: 2px solid black;
@@ -225,16 +228,15 @@
     margin: 10px;
     padding-left: 10px;
     font-family: 'Baloo Bhai 2', cursive;
-
-
 }
-.btn-dark{
-    color:blue;
+
+.btn-dark {
+    color: blue;
     border: 2px solid black;
     font-family: 'Baloo Bhai 2', cursive;
-
 }
-.footer{
+
+.footer {
     background-color: darksalmon;
     text-align: center;
     padding-top: 10px;
@@ -243,60 +245,53 @@
     height: 30px;
     font-family: 'Baloo Bhai 2', cursive;
 }
-.burger{
+
+.burger {
     position: absolute;
     cursor: pointer;
     display: none;
     right: 5%;
     top: 15px;
-
 }
-.line{
+
+.line {
     width: 33px;
     background-color: white;
     height: 4px;
     margin: 4px 5px;
 }
 
-
-@media only screen and (max-width:1100px){
-    .nav-list{
+@media only screen and (max-width:1100px) {
+    .nav-list {
         flex-direction: column;
         /* margin: 10px 20px; */
-        
     }
-    
-
-    .navbar{
+    .navbar {
         flex-direction: column;
     }
-
-    .rightNav{
+    .rightNav {
         text-align: center;
     }
-    #search{
+    #search {
         width: 60%;
         margin-left: 36px;
     }
-    .navbar{
+    .navbar {
         position: relative;
         height: 577px;
         transition: all 0.7s ease-out;
-        
-        
     }
-    .burger{
+    .burger {
         display: block;
         margin-right: 20px;
-
     }
-    .h-nav{
+    .h-nav {
         height: 55px;
     }
-    .v-class{
+    .v-class {
         opacity: 0;
     }
-    .text-big{
+    .text-big {
         font-size: 35px;
         justify-content: center;
         text-align: center;
@@ -304,55 +299,45 @@
         width: 300px;
         margin-left: -25px;
     }
-    .logo img{
+    .logo img {
         width: 150px;
         height: 100px;
     }
-    .box-main{
+    .box-main {
         flex-direction: column-reverse;
         max-width: 100%;
         height: 320px;
     }
-    .section{
+    .section {
         flex-direction: column-reverse;
-        
     }
-    .secondsection img{
+    .secondsection img {
         margin-top: 223px;
         margin-left: -33px;
     }
-    .text-sm{
+    .text-sm {
         text-align: center;
     }
-    .buttons{
+    .buttons {
         text-align: center;
     }
-    .para{
+    .para {
         text-align: center;
         width: 82%;
         margin: 21px -382px;
     }
-    .sectiontag{
+    .sectiontag {
         text-align: center;
         width: 90%;
     }
-    .sectionsuntag{
+    .sectionsuntag {
         text-align: center;
     }
-    .contactus{
+    .contactus {
         text-align: center;
         width: 95%;
     }
-    .form-input{
+    .form-input {
         width: 73%;
     }
-    
-
-    
-
 }
-
-
-
-
-
